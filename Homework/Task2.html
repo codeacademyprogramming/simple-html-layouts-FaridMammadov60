@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/task.css">
+    <title>Task2</title>
+</head>
+
+<body>
+    <div id="last">
+        <header id="m4">
+            <b>
+                Application For Permission To Date My Daughter
+            </b>
+        </header>
+        <p>
+            <b>
+                Note:
+            </b>
+            Form is to be Completed at least 21 days prior to date
+        </p>
+        <form>
+            <fieldset>
+                <legend><b>
+                        Personal Details
+                    </b>
+                </legend>
+                <label for="name">Name:</label>
+                <input type="text" id=Name placeholder="Enter name here">
+                <br>
+                <label for="Address">Address:</label>
+                <input type="text" id=Address placeholder="Enter address here">
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" id=Email placeholder="Enter email here">
+                <br>
+                <label for="Number">Phone Number:</label>
+                <input type="number" id=Number placeholder="Enter 10 digit number">
+                <br>
+                <label for="IQ">IQ:</label>
+                <input type="number" id=IQ placeholder="Enter IQ here">
+
+                <p>Gender</p>
+                <input type="radio" id="Male" name="Gender">
+                <label for="Male">Male</label><br />
+
+                <input type="radio" id="Female" name="Gender">
+                <label for="Female">Female</label><br />
+
+                <input type="radio" id="Other" name="Gender">
+                <label for="Other">Other</label><br>
+
+                <label for="birthdate">Date of Proposed Outing:</label>
+                <input type="date" name="birthdate" id="birthdate">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>Check All That Apply</label><br>
+                <label for="tato"></label>
+                <input type="checkbox" value="tato" id="tato">I have tattoos and/or pirercings <br>
+                <label for="2 year"></label>
+                <input type="checkbox" value="2 year" id="2 year">I am more than 2 years older than my daughter <br>
+                <label for="V8"></label>
+                <input type="checkbox" value="V8" id="V8">I own a panel van or V8 ute <br>
+                <label for="work"></label>
+                <input type="checkbox" value="work" id="work">I work full time <br>
+                <label for="rich"></label>
+                <input type="checkbox" value="rich" id="rich">My parents are rich <br>
+                <label for="rich"></label>
+                <input type="checkbox" value="rich" id="rich">Is the date at a well lit public location <br>
+            </fieldset><br>
+            <fieldset>
+                <label for="Political Persuasion">Political Persuasion</label>
+                <select name="Political" id="">
+                    <option value="Left Wing">Left Wing</option>
+                    <option value="Right Wing">Right Wing</option>
+                </select>
+                <label for="Education">Education Level Completed</label>
+                <select name="Edu" id="">
+                    <option value="University">University</option>
+                    <option value="School">School</option>
+                </select>
+            </fieldset><br>
+            <fieldset>
+                <legend> <b>
+                        Essay Section
+                    </b> </legend>
+                <label id="label" for="story">In 50 words or more explain why you want to date my daughter</label><br>
+                <textarea id="story" name="story" rows="5" cols="50">
+                Enter Text Here
+                </textarea><br>
+                <label id="label" for="story">Please upload contact details for 2 referance</label><br>
+                <textarea id="upload" name="upload" rows="5" cols="50">
+                Enter Text Here
+            </textarea><br>
+                <label for="certificate">Upload Police Clearance Certificate, Bank Statement and Medical Certificates
+                    here:</label>
+                <input type="file" name="certificate" id="certificate" style="color:white; background-color: red;">
+            </fieldset><br>
+        </form>
+        <footer>
+            <Address>
+                <span><button id="m5">Send Your Application</button></span>
+            </Address>
+        </footer>
+    </div>
+</body>
+
+</html>
